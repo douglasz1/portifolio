@@ -93,14 +93,13 @@ right:0;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.aside .nav li a:hover{
+.aside .nav li a:not(.active):hover{
 	padding-left: 5px;
 }
 .aside .nav li a .fa{
 	margin-right: 5px;
 }
 .aside .copyright-text{
-	background-color:#ededed;
+	font-size: 13px;
+	color:#7d7d7d;
 }
-.aside .logo a{}
-/* Home */
