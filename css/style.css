@@ -23,7 +23,6 @@ body{
 box-sizing: border-box;
 }
 .section{
-	background-color: #f2f2fc;
 	min-height: 100vh;
 	display: block;
 }
@@ -73,7 +72,11 @@ position: absolute;
 bottom:0;
 right:0;
 }
-
+.aside .nav-toggler{
+	height: 40px;
+	width: 40px;
+	border:1px solid #d4d4e3;
+}
 .aside .nav{
 	list-style: none;
 	margin:80px 0;
