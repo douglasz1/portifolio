@@ -174,3 +174,39 @@ width: 200px;*/
 display: inline-block;
 border:8px solid #ffffff;
 }
+
+.home .intro h1{
+	font-size: 30px;
+	color:#302e4d;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	margin:20px 0 5px;
+}
+
+.home .intro p{
+	font-size: 16px;
+	font-weight: 500;
+	margin:0;
+	line-height: 22px;
+	color: #504e70;
+}
+.home .intro .social-link{
+	margin-top: 25px;
+}
+
+.home .intro .social-link a{
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	line-height: 35px;
+	color: #ffffff;
+	margin:0 4px;
+	border-radius: 50%;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.home .intro .social-link a:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
