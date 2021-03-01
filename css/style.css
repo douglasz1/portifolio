@@ -37,6 +37,19 @@ box-sizing: border-box;
 	max-width: 100%;
 	margin-bottom: 60px;
 }
+.row{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right:-15px;
+	margin-left:-15px;
+	position: relative;
+}
+.padd-15{
+	padding-left:15px;
+	padding-right:15px;
+}
 .section-title h2{
 	font-size: 40px;
 	color:#302e4d;
@@ -61,19 +74,6 @@ box-sizing: border-box;
 	top:100%;
 	left:0;
 	margin-top:8px;
-}
-.row{
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-right:-15px;
-	margin-left:-15px;
-	position: relative;
-}
-.padd-15{
-	padding-left:15px;
-	padding-right:15px;
 }
 .main-content{
 	padding-left: 270px;
