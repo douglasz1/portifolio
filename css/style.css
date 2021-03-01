@@ -67,7 +67,7 @@ box-sizing: border-box;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-right:-15px;	
+	margin-right:-15px;
 	margin-left:-15px;
 	position: relative;
 }
@@ -265,15 +265,26 @@ border:8px solid #ffffff;
 /* About Section */
 
 .about .about-content{
-	background-color: red;
 	-ms-flex:0 0 100%;
 	flex:0 0 100%;
 	max-width: 100%;
 }
-.about .about-content padd-15 .about-text padd-15{
-	background-color: blue;
-	-ms-flex:0 0 50%;
+.about .about-content .about-text{
+	-ms-flex:0 0 100%;
 	flex:0 0 100%;
-	max-width: 50%;	
+	max-width: 100%;
 }
 
+.about .about-content.about-text h3{
+	font-size: 24px;
+	margin-bottom:15px;
+	font-weight: 700;
+	color:#302e4d;
+}
+
+.about .about-content.about-text p{
+	font-size: 16px;
+	line-height: 25px;
+	color:#504e70;
+	margin:0;
+}
