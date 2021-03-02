@@ -289,8 +289,29 @@ border:8px solid #ffffff;
 	margin:0;
 }
 .about .about-content .personal-info{
-	background-color: red;
+	/*background-color: red;*/
+-ms-flex:0 0 60%;
+	flex:0 0 60%;
+	max-width: 60%;
+	margin-top: 40px;
+}
+.about .about-content .personal-info .info-item{
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width: 50%;
+}
+.about .about-content .personal-info .info-item p{
+	/*background-color: red;*/
+	font-weight: 600;
+	padding:10px 0;
+	font-size: 16px;
+	color:#302e4d;
+	border-right:1px solid #e8dfec;
 }
 .about .about-content .skills{
-	background-color: blue;	
+	/*background-color: blue;*/
+-ms-flex:0 0 40%;
+	flex:0 0 40%;
+	max-width: 40%;
+	margin-top: 40px;
 }
