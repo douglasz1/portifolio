@@ -275,16 +275,22 @@ border:8px solid #ffffff;
 	max-width: 100%;
 }
 
-.about .about-content.about-text h3{
+.about .about-content .about-text h3{
 	font-size: 24px;
 	margin-bottom:15px;
 	font-weight: 700;
 	color:#302e4d;
 }
 
-.about .about-content.about-text p{
+.about .about-content .about-text p{
 	font-size: 16px;
 	line-height: 25px;
 	color:#504e70;
 	margin:0;
+}
+.about .about-content .personal-info{
+	background-color: red;
+}
+.about .about-content .skills{
+	background-color: blue;	
 }
